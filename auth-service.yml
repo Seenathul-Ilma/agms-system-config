@@ -29,4 +29,5 @@ eureka:
     prefer-ip-address: true
 
 jwt:
-  secretKey: 40bdf4434bd323cc1ea5a2da06d75ddbedc8997a033a97bf334b1e57fb32a215
+  secret: 40bdf4434bd323cc1ea5a2da06d75ddbedc8997a033a97bf334b1e57fb32a215
+  expiration: 86400000 # 1 day
